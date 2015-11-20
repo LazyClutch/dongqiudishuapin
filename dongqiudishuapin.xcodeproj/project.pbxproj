@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63EFE0171BA563880024C637 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFE0161BA563880024C637 /* main.m */; };
+		63EFE01A1BA563880024C637 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFE0191BA563880024C637 /* AppDelegate.m */; };
+		63EFE01D1BA563880024C637 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFE01C1BA563880024C637 /* ViewController.m */; };
+		63EFE0201BA563880024C637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EFE01E1BA563880024C637 /* Main.storyboard */; };
+		63EFE0221BA563880024C637 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EFE0211BA563880024C637 /* Images.xcassets */; };
+		63EFE0251BA563880024C637 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63EFE0231BA563880024C637 /* LaunchScreen.xib */; };
+		63EFE0311BA563880024C637 /* dongqiudishuapinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFE0301BA563880024C637 /* dongqiudishuapinTests.m */; };
+		EBB44DEB5778C705CACC788B /* libPods-dongqiudishuapin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9196E0B504475836DBE3A9 /* libPods-dongqiudishuapin.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63EFE02B1BA563880024C637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63EFE0091BA563880024C637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63EFE0101BA563880024C637;
+			remoteInfo = dongqiudishuapin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FAF195CD11AD07954B2E966 /* Pods-dongqiudishuapin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dongqiudishuapin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dongqiudishuapin/Pods-dongqiudishuapin.debug.xcconfig"; sourceTree = "<group>"; };
+		63EFE0111BA563880024C637 /* dongqiudishuapin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dongqiudishuapin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EFE0151BA563880024C637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63EFE0161BA563880024C637 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63EFE0181BA563880024C637 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63EFE0191BA563880024C637 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63EFE01B1BA563880024C637 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63EFE01C1BA563880024C637 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63EFE01F1BA563880024C637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63EFE0211BA563880024C637 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63EFE0241BA563880024C637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		63EFE02A1BA563880024C637 /* dongqiudishuapinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dongqiudishuapinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EFE02F1BA563880024C637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63EFE0301BA563880024C637 /* dongqiudishuapinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dongqiudishuapinTests.m; sourceTree = "<group>"; };
+		9C7C346EAD454E03449CF36B /* Pods-dongqiudishuapin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dongqiudishuapin.release.xcconfig"; path = "Pods/Target Support Files/Pods-dongqiudishuapin/Pods-dongqiudishuapin.release.xcconfig"; sourceTree = "<group>"; };
+		DE9196E0B504475836DBE3A9 /* libPods-dongqiudishuapin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dongqiudishuapin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63EFE00E1BA563880024C637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB44DEB5778C705CACC788B /* libPods-dongqiudishuapin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EFE0271BA563880024C637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E5B7F7423516156EEE55AE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FAF195CD11AD07954B2E966 /* Pods-dongqiudishuapin.debug.xcconfig */,
+				9C7C346EAD454E03449CF36B /* Pods-dongqiudishuapin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5DE0F2F1771DA9A28BFF0965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE9196E0B504475836DBE3A9 /* libPods-dongqiudishuapin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63EFE0081BA563880024C637 = {
+			isa = PBXGroup;
+			children = (
+				63EFE0131BA563880024C637 /* dongqiudishuapin */,
+				63EFE02D1BA563880024C637 /* dongqiudishuapinTests */,
+				63EFE0121BA563880024C637 /* Products */,
+				4E5B7F7423516156EEE55AE6 /* Pods */,
+				5DE0F2F1771DA9A28BFF0965 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63EFE0121BA563880024C637 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63EFE0111BA563880024C637 /* dongqiudishuapin.app */,
+				63EFE02A1BA563880024C637 /* dongqiudishuapinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63EFE0131BA563880024C637 /* dongqiudishuapin */ = {
+			isa = PBXGroup;
+			children = (
+				63EFE0181BA563880024C637 /* AppDelegate.h */,
+				63EFE0191BA563880024C637 /* AppDelegate.m */,
+				63EFE01B1BA563880024C637 /* ViewController.h */,
+				63EFE01C1BA563880024C637 /* ViewController.m */,
+				63EFE01E1BA563880024C637 /* Main.storyboard */,
+				63EFE0211BA563880024C637 /* Images.xcassets */,
+				63EFE0231BA563880024C637 /* LaunchScreen.xib */,
+				63EFE0141BA563880024C637 /* Supporting Files */,
+			);
+			path = dongqiudishuapin;
+			sourceTree = "<group>";
+		};
+		63EFE0141BA563880024C637 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63EFE0151BA563880024C637 /* Info.plist */,
+				63EFE0161BA563880024C637 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63EFE02D1BA563880024C637 /* dongqiudishuapinTests */ = {
+			isa = PBXGroup;
+			children = (
+				63EFE0301BA563880024C637 /* dongqiudishuapinTests.m */,
+				63EFE02E1BA563880024C637 /* Supporting Files */,
+			);
+			path = dongqiudishuapinTests;
+			sourceTree = "<group>";
+		};
+		63EFE02E1BA563880024C637 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63EFE02F1BA563880024C637 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63EFE0101BA563880024C637 /* dongqiudishuapin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63EFE0341BA563880024C637 /* Build configuration list for PBXNativeTarget "dongqiudishuapin" */;
+			buildPhases = (
+				192303BC23E16DECFE0089D9 /* Check Pods Manifest.lock */,
+				63EFE00D1BA563880024C637 /* Sources */,
+				63EFE00E1BA563880024C637 /* Frameworks */,
+				63EFE00F1BA563880024C637 /* Resources */,
+				9824AEB87C20C154CF3E6F7E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dongqiudishuapin;
+			productName = dongqiudishuapin;
+			productReference = 63EFE0111BA563880024C637 /* dongqiudishuapin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63EFE0291BA563880024C637 /* dongqiudishuapinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63EFE0371BA563880024C637 /* Build configuration list for PBXNativeTarget "dongqiudishuapinTests" */;
+			buildPhases = (
+				63EFE0261BA563880024C637 /* Sources */,
+				63EFE0271BA563880024C637 /* Frameworks */,
+				63EFE0281BA563880024C637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63EFE02C1BA563880024C637 /* PBXTargetDependency */,
+			);
+			name = dongqiudishuapinTests;
+			productName = dongqiudishuapinTests;
+			productReference = 63EFE02A1BA563880024C637 /* dongqiudishuapinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63EFE0091BA563880024C637 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = lazy;
+				TargetAttributes = {
+					63EFE0101BA563880024C637 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					63EFE0291BA563880024C637 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 63EFE0101BA563880024C637;
+					};
+				};
+			};
+			buildConfigurationList = 63EFE00C1BA563880024C637 /* Build configuration list for PBXProject "dongqiudishuapin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63EFE0081BA563880024C637;
+			productRefGroup = 63EFE0121BA563880024C637 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63EFE0101BA563880024C637 /* dongqiudishuapin */,
+				63EFE0291BA563880024C637 /* dongqiudishuapinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63EFE00F1BA563880024C637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EFE0201BA563880024C637 /* Main.storyboard in Resources */,
+				63EFE0251BA563880024C637 /* LaunchScreen.xib in Resources */,
+				63EFE0221BA563880024C637 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EFE0281BA563880024C637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		192303BC23E16DECFE0089D9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9824AEB87C20C154CF3E6F7E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dongqiudishuapin/Pods-dongqiudishuapin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63EFE00D1BA563880024C637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EFE01D1BA563880024C637 /* ViewController.m in Sources */,
+				63EFE01A1BA563880024C637 /* AppDelegate.m in Sources */,
+				63EFE0171BA563880024C637 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EFE0261BA563880024C637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EFE0311BA563880024C637 /* dongqiudishuapinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63EFE02C1BA563880024C637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63EFE0101BA563880024C637 /* dongqiudishuapin */;
+			targetProxy = 63EFE02B1BA563880024C637 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63EFE01E1BA563880024C637 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63EFE01F1BA563880024C637 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63EFE0231BA563880024C637 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63EFE0241BA563880024C637 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63EFE0321BA563880024C637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63EFE0331BA563880024C637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63EFE0351BA563880024C637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FAF195CD11AD07954B2E966 /* Pods-dongqiudishuapin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dongqiudishuapin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}";
+			};
+			name = Debug;
+		};
+		63EFE0361BA563880024C637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C7C346EAD454E03449CF36B /* Pods-dongqiudishuapin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dongqiudishuapin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}";
+			};
+			name = Release;
+		};
+		63EFE0381BA563880024C637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = dongqiudishuapinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dongqiudishuapin.app/dongqiudishuapin";
+			};
+			name = Debug;
+		};
+		63EFE0391BA563880024C637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = dongqiudishuapinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dongqiudishuapin.app/dongqiudishuapin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63EFE00C1BA563880024C637 /* Build configuration list for PBXProject "dongqiudishuapin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EFE0321BA563880024C637 /* Debug */,
+				63EFE0331BA563880024C637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63EFE0341BA563880024C637 /* Build configuration list for PBXNativeTarget "dongqiudishuapin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EFE0351BA563880024C637 /* Debug */,
+				63EFE0361BA563880024C637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63EFE0371BA563880024C637 /* Build configuration list for PBXNativeTarget "dongqiudishuapinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EFE0381BA563880024C637 /* Debug */,
+				63EFE0391BA563880024C637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63EFE0091BA563880024C637 /* Project object */;
+}
